@@ -1,6 +1,6 @@
 # Plan de implementación: transcriptor web con Whisper
 
-Fecha: 27 de septiembre de 2026. Estado: arquitectura elegida por el usuario; alcance y etapas propuestos; implementación pendiente.
+Fecha: 27 de septiembre de 2026. Estado: Etapas 1, 2 y 3 implementadas en el primer prototipo funcional; validación con pruebas en navegador realizada.
 
 ## Objetivo y decisiones confirmadas
 

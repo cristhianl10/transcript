@@ -17,7 +17,18 @@ Gracias por contribuir. El proyecto está en su etapa inicial; el [plan de imple
 3. Crea una rama para tu cambio y procura que cada solicitud de cambios tenga un objetivo concreto.
 4. Describe qué cambiaste, por qué y cómo comprobaste el resultado. Si todavía no pudiste validarlo, indícalo.
 
-Los comandos de desarrollo se añadirán al README cuando exista el primer prototipo.
+Consulta la [guía de desarrollo](docs/DESARROLLO.md) para conocer el estado del repositorio. Los comandos para ejecutar la aplicación se incorporarán cuando exista el primer prototipo.
+
+## Documentación
+
+La documentación del proyecto se mantiene en español y su punto de entrada es el [índice de documentación](docs/README.md).
+
+- Usa palabras claras y explica los términos técnicos cuando sean necesarios.
+- Distingue las funciones disponibles de las propuestas o pendientes.
+- Usa enlaces relativos para referenciar otros archivos del repositorio.
+- Actualiza las guías afectadas cuando cambie el comportamiento de la aplicación.
+- Al añadir instrucciones ejecutables, comprueba que los archivos y comandos descritos existen.
+- Conserva los nombres oficiales de tecnologías, archivos y opciones de configuración.
 
 ## Informar de un problema
 

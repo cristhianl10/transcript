@@ -1,4 +1,4 @@
-# Dependencies and generated files
+# Dependencias y archivos generados
 node_modules/
 dist/
 coverage/
@@ -9,25 +9,25 @@ coverage/
 playwright-report/
 test-results/
 
-# Environment variables and local deployment settings
+# Variables de entorno y configuración local de despliegue
 .env
 .env.*
 !.env.example
 !.env.*.example
 .vercel/
 
-# Downloaded models and personal transcription material
+# Modelos descargados, audios y transcripciones personales
 /models/
 /local-data/
 *.onnx
 *.onnx_data
 *.safetensors
 
-# Local assistant configuration
+# Configuración local de asistentes
 /.agents/
 /.codex/
 
-# Editor and operating system files
+# Archivos del editor y del sistema operativo
 .idea/
 .vscode/
 .DS_Store

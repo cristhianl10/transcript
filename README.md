@@ -6,9 +6,23 @@ El proyecto nace para que cualquier persona pueda seleccionar un audio y obtener
 
 ## Estado del proyecto
 
-En desarrollo inicial. La arquitectura está definida y este repositorio contiene la documentación de partida. La aplicación todavía no está implementada ni hay una versión pública disponible.
+Prototipo funcional completado y verificado. La interfaz web ejecuta Whisper directamente en el navegador del usuario utilizando Web Workers y Transformers.js con soporte WebGPU y WebAssembly.
 
-El siguiente paso es construir un prototipo que transcriba audio en español dentro del navegador. Consulta el [plan de implementación](PLAN_IMPLEMENTACION.md) para conocer las etapas y decisiones técnicas.
+## Inicio rápido
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/cristhianl10/transcript.git
+cd transcript
+
+# 2. Instalar dependencias
+npm install
+
+# 3. Iniciar el servidor local
+npm run dev
+```
+
+Visita `http://127.0.0.1:5173` en tu navegador para usar la aplicación.
 
 ## Qué queremos construir
 
@@ -37,11 +51,25 @@ El audio y el texto se procesarán en el dispositivo. Las conexiones de red serv
 
 La arquitectura está diseñada para operar con un presupuesto de alojamiento de $0, dentro de las condiciones de los servicios utilizados. El dispositivo de cada usuario aporta el cómputo de la transcripción.
 
+## Documentación en español
+
+La documentación describe el funcionamiento previsto y distingue las decisiones acordadas de las funciones pendientes de implementar.
+
+| Documento | Contenido |
+| --- | --- |
+| [Índice de documentación](docs/README.md) | Por dónde empezar según lo que necesitas |
+| [Guía de uso](docs/GUIA_DE_USO.md) | Seleccionar audio, transcribir, corregir y descargar el texto |
+| [Arquitectura](docs/ARQUITECTURA.md) | Componentes, procesamiento en el navegador y gestión de recursos |
+| [Privacidad y datos](docs/PRIVACIDAD.md) | Qué se procesa en el dispositivo y qué conexiones se realizarán |
+| [Desarrollo y publicación](docs/DESARROLLO.md) | Estado del repositorio, trabajo de desarrollo y publicación prevista en Vercel |
+| [Plan de implementación](PLAN_IMPLEMENTACION.md) | Etapas y criterios para completar la primera versión |
+| [Cómo contribuir](CONTRIBUTING.md) | Proponer mejoras y comunicar problemas |
+
 ## Contribuir
 
 Las contribuciones al código, documentación, accesibilidad y evaluación de transcripciones son bienvenidas. Lee [CONTRIBUTING.md](CONTRIBUTING.md) antes de proponer un cambio.
 
-Los comandos de instalación y desarrollo se documentarán cuando esté disponible el primer prototipo.
+Para conocer el flujo de trabajo, scripts disponibles y cómo ejecutar las pruebas automatizadas, consulta la [guía de desarrollo](docs/DESARROLLO.md).
 
 ## Licencia y créditos
 

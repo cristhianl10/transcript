@@ -1,0 +1,36 @@
+# Dependencies and generated files
+node_modules/
+dist/
+coverage/
+.vite/
+.cache/
+*.tsbuildinfo
+*.log
+playwright-report/
+test-results/
+
+# Environment variables and local deployment settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+.vercel/
+
+# Downloaded models and personal transcription material
+/models/
+/local-data/
+*.onnx
+*.onnx_data
+*.safetensors
+
+# Local assistant configuration
+/.agents/
+/.codex/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
